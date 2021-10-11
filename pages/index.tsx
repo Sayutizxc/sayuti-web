@@ -13,7 +13,7 @@ const Home: NextPage = () => {
   }, []);
 
   return (
-    <div className='select-none min-h-screen min-w-full bg-black text-white mx-auto p-2 overflow-hidden'>
+    <div className='select-none min-h-screen min-w-full bg-black text-white mx-auto p-2 overflow-hidden flex justify-center items-center'>
       <Head>
         <title>Sayuti</title>
         <meta name='description' content='Personal Website' />
@@ -22,16 +22,15 @@ const Home: NextPage = () => {
 
       <div className=''>
         {/* Navbar */}
-        <nav>
+        <nav className='relative max-w-5xl mx-auto'>
           {/* Logo */}
-          <div className='flex text-xl xs:text-2xl md:py-2'>
+          <div className='md:absolute -bottom-24 flex text-xl xs:text-2xl '>
             <p>&#10100;&nbsp;</p>
             <p className='font-extrabold'>sayuti</p>
             <p className='text-green-400'>.codes</p>
             <p>&nbsp;&#10101;</p>
           </div>
         </nav>
-        <hr className='my-1' />
 
         {/* Main Content */}
         <main className='relative'>
@@ -45,7 +44,7 @@ const Home: NextPage = () => {
                 <p className='text-green-400 text-9xl xs:text-10xl'>HI,</p>
                 <div className='font-scheherazade text-4xl xs:text-5xl'>
                   <p>I&#39;m</p>
-                  <p className='ml-2'>Sayuti</p>
+                  <p className='ml-2'>Sayuti.</p>
                 </div>
               </div>
             </div>
@@ -58,7 +57,7 @@ const Home: NextPage = () => {
                 <p className='mt-8 text-5xl text-gray-400'>{time}</p>
                 <div className='mt-1 h-[2px] w-[80px] bg-gray-400 rounded-full'></div>
 
-                <div className='absolute bottom-4 w-[32px] h-[32px] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110'>
+                <div className='absolute bottom-4 w-[32px] h-[32px] transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-125'>
                   <a
                     className='select-none'
                     href='https://github.com/sayutizxc'
@@ -79,7 +78,8 @@ const Home: NextPage = () => {
                 <p className='absolute  -left-10 mt-10 text-green-400 font-bold font-scheherazade text-5xl bg-gray-800/50 px-3 py-1 rounded-xl backdrop-filter backdrop-blur-sm animate-scale'>
                   Mobile
                 </p>
-                <p className='absolute -right-10 mt-28 text-gray-200 font-bold font-scheherazade text-6xl bg-gray-800/50 px-3 py-1 rounded-xl backdrop-filter backdrop-blur-sm transition duration-500 ease-in-out transform  hover:scale-105'>
+
+                <p className='absolute -right-10 mt-28 text-gray-200 font-bold font-scheherazade text-6xl bg-gray-800/50 px-3 py-1 rounded-xl backdrop-filter backdrop-blur-sm'>
                   Developer
                 </p>
               </div>
