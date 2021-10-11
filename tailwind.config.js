@@ -14,16 +14,16 @@ module.exports = {
         scheherazade: "'Scheherazade New', serif",
       },
       animation: {
-        scale: 'scale 3s infinite',
+        scale: 'scale 4s infinite',
         'pulse-slow': 'pulse 2s ease-in-out infinite',
       },
       keyframes: {
         scale: {
           '0%, 100%': {
-            transform: 'scale(1) rotate(7deg)',
+            transform: 'scale(1) rotate(5deg)',
           },
           '50%': {
-            transform: 'scale(1.2) rotate(-7deg)',
+            transform: 'scale(1.2) rotate(-5deg)',
           },
         },
       },
