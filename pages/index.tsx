@@ -69,6 +69,7 @@ const Home: NextPage = () => {
                       alt='github'
                       height='32px'
                       width='32px'
+                      draggable='false'
                     />
                   </a>
                 </div>
