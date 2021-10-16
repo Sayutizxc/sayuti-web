@@ -15,8 +15,8 @@ const Home: NextPage = () => {
   return (
     <div className='select-none min-h-screen min-w-full bg-black text-white mx-auto p-2 overflow-hidden flex justify-center items-center'>
       <Head>
-        <title>Sayuti</title>
-        <meta name='description' content='Personal Website' />
+        <title>Muhammad Sayuti | Personal Website</title>
+        <meta name='description' content='Hai, saya muhammad sayuti, saya adalah seorang junior mobile developer, saya sangat tertarik dalam pengembangan aplikasi mobile menggunakan flutter.' />
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                   >
                     <img
                       src={'/github.png'}
-                      alt='github'
+                      alt='github logo'
                       height='32px'
                       width='32px'
                       draggable='false'
