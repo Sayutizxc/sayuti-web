@@ -20,7 +20,7 @@ const Home: NextPage = () => {
         <link rel='icon' href='/favicon.ico' />
       </Head>
 
-      <div className=''>
+      <div>
         {/* Navbar */}
         <nav className='relative max-w-5xl mx-auto'>
           {/* Logo */}
@@ -36,7 +36,7 @@ const Home: NextPage = () => {
         <main className='relative'>
           <div className='md:flex justify-center items-center'>
             {/* Introduction text */}
-            <div className='relative font-extrabold font-scheherazade'>
+            <article className='relative font-extrabold font-scheherazade'>
               <div className='absolute -top-10 text-6xl xs:text-7xl lg:-left-10 lg:-top-24'>
                 <p className='text-white/5 lg:text-10xl'>Introduction</p>
               </div>
@@ -47,7 +47,7 @@ const Home: NextPage = () => {
                   <p className='ml-2'>Sayuti.</p>
                 </div>
               </div>
-            </div>
+            </article>
 
             {/* Mobile */}
             <div className='relative bg-gray-900/40 w-[280px] h-[533px] mx-auto lg:mx-36 rounded-[50px] border-[12px] border-gray-700 mt-6'>
