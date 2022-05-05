@@ -26,8 +26,8 @@ const Home: NextPage = () => {
           {/* Logo */}
           <div className='md:absolute -bottom-24 flex text-xl xs:text-2xl '>
             <p>&#10100;&nbsp;</p>
-            <p className='font-extrabold'>sayuti</p>
-            <p className='text-green-400'>.codes</p>
+            <p className='font-extrabold'>github.com</p>
+            <p className='text-green-400'>/sayutizxc</p>
             <p>&nbsp;&#10101;</p>
           </div>
         </nav>
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                   >
                     <img
                       src={'/github.png'}
-                      alt='github logo'
+                      alt='sayutizxc'
                       height='32px'
                       width='32px'
                       draggable='false'
